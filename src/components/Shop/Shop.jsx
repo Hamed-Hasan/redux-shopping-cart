@@ -1,5 +1,6 @@
 import React from 'react';
 import Products from '../Products/Products';
+import SideBar from '../SideBar/SideBar';
 
 const Shop = () => {
     return (
@@ -11,6 +12,7 @@ const Shop = () => {
         </div>
         <div className="grid grid-cols-12 gap-6">
          <Products/>
+         <SideBar/>
         </div>
       </div>
     );
