@@ -5,10 +5,10 @@ import {
     existsReplaceWithIncrementProduct,
     quantityDecrementByProduct,
     quantityStockIncrementByProduct,
-  } from '../../utils/func'
-  import { CART_ADD_PRODUCT } from '../reducers/cartReducer'
-  import { UPDATE_PRODUCTS } from '../reducers/productReducer'
-  import { SELECTED_PRODUCT_CART } from '../reducers/selectedCartReducer'
+  } from '../utils/func'
+  import { CART_ADD_PRODUCT } from '../reducer/cartReducer'
+  import { UPDATE_PRODUCTS } from '../reducer/productReducer'
+  import { SELECTED_PRODUCT_CART } from '../reducer/selectedCartReducer'
   import store from '../store'
   
   export const addProductCartIncrementAction = async (newCartProduct) => {
